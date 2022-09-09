@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aydın BEKOĞLU - Anasayfa</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	  <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/scrollup.css" />
+	  <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"/>
+	  <!-- FONT -->
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- HEADER-->
+      <header>
+        <div class="container">
+          <!-- Logo -->
+          <div class="logo">
+			      <!-- <div class="baslik">AYDIN BEKOĞLU KİŞİSEL SİTE</div> -->
+			      <div class="resim"><img src="img/logo.png" alt=""></div>
+          </div>
+
+          <!-- Menu -->
+          <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="kimdir.html">Kimdir?</a></li>
+                <li><a href="">Projelerim</a>
+                  <ul>
+                    <li><a href="projelerim/sitelerim.html">Web Sitelerim</a></li>
+                    <li><a href="https://github.com/MyscherzoTR?tab=repositories" target="_blank">Github</a>
+                  </ul>
+                </li>
+                <li><a href="">Galeri</a>
+                  <ul>
+                    <li><a href="galeri/video.html">Video</a></li>
+                    <li><a href="galeri/fotoGaleri.html">Resim</a></li>
+                    <li><a href="galeri/seyahat.html">Seyahat</a></li>
+                  </ul>
+                </li>
+                <li><a href="hakkinda.html" target="_blank" class="aktif">Hakkımda</a></li>
+                <li><a href="iletisim.html" target="_blank">İletişim</a>
+            </ul>
+            <div class="clear"></div>
+          </nav>
+        </div>
+      </header>	  
+	   
+      <!-- CONTENT -->
+      <div class="content">
+        <h1 class="title">
+          <div class="container">Özgeçmiş</div>
+        </h1>
+        <div class="container">
+          <script>
+           function makeEditable(div)
+           {
+             div.style.padding="20px";
+             div.contentEditable=true;
+           }
+           function makeReadOnly(div)
+           {
+             div.style.padding="20px";
+             div.contentEditable=false;
+           }
+          </script>
+          <center>
+            <div ondblclick="makeEditable(this)" onblur="makeReadOnly(this)">
+              <div id="contents">
+                <h3>Ozgecmis Yaz</h3>
+                <p>paragraf</p>
+              </div>
+              <div id="editor"></div>
+            </div>
+          </center>
+          <center><button id="demo" onclick="myFunction()">Kaydet</button></center>
+          <div><iframe src="CV.pdf" width="100%" height="615px"></iframe></div>
+        </div>
+        <div class="scrollup"><a href=""></a></div>  
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+			<div class="ust"> 
+				<div class="footerSol">
+          <ul>
+            <li>
+              <span>İstanbul Esenyurt Üniversitesi 2 yıllık Bilgisayar Programcısı Mezunu</span></br>
+					<span>Şuan Kocaeli Üniversitesinde Bilişim Sistemleri Mühendisliği Okuyor.</span></br>
+          <span>Yönetimini ve Yazarlığını Yaptığım Web Sitem: <a href="https://technovadi.com" target="_blank" >TechnoVadi</a></span>
+          <div id="icon">
+            <a href="https://www.facebook.com/myscherzo/" target="_blank"><img src="img/icon/facebook.png" alt="Facebook"/></a>
+           <a href="https://twitter.com/Myscherzo" target="_blank"> <img src="img/icon/twitter.png" alt="Twitter"/></a>
+           <a href="https://www.instagram.com/bekogluaydin/" target="_blank"> <img src="img/icon/instagram.png" alt="Instagram"/></a>
+           <a href="https://www.linkedin.com/in/ayd%C4%B1n-beko%C4%9Flu-b85336118/" target="_blank"> <img src="img/icon/linkedin.png" alt="linkedin"/></a>
+           <a href="https://www.youtube.com/channel/UCxf14E3HEs217uDMLpTovAA/featured?view_as=subscriber" target="_blank"> <img src="img/icon/youtube-variation.png" alt="Youtube" /></a>
+           <a href="https://github.com/MyscherzoTR" target="_blank"> <img src="img/icon/github.png" alt="Github"  /></a>
+           </div>
+            </li>
+          </ul>
+					
+        </div> 
+
+		  	  	<div class="footerSag">
+              <ul>
+                <li><h5>BİZE ULAŞIN!</h5></li>
+                <li>	<span>Telefon: 0532 3455 5534</span><a href="https://wa.me/905323455534" target="_blank"> <img src="img/icon/whatsapp.png" alt="Whatsapp" width="20px" height="20px" /></a></li>
+                <li><span>Mail: aydinbek97@gmail.com</span></li>
+                <li><span>Adres: Mevlana Mh. Dursun Bey Cd. No:12 Ataşehir/İSTANBUL</span></li>
+              </ul>
+		 	 	    </div>
+			</div>
+			<div class="alt">© 2020 Tüm hakları saklıdır.</div>		  
+      </footer>
+    </div>
+  </body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/scrollup.js"></script>
+
+<script>
+  // documentgetElementById("demo").onclick = function(){myFunction()};
+  function myFunction(){
+    var doc = new jsPDF();
+    var specialElementHandlers = {'#editor': function (element, renderer) {return true;}};
+    var p = document.querySelector('#heading');
+    doc.fromHTML($('#contents').html(), 15, 15, {
+      'width': 170,
+        'elementHandlers': specialElementHandlers});
+    // doc.fromHTML(p,15,15);
+    doc.save("CV.pdf");
+  }    
+</script>

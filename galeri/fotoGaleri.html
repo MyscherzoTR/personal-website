@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foto Galeri</title>
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/custom.css" />
+  <link rel="stylesheet" type="text/css" href="../css/slider.css" />
+  <link rel="stylesheet" type="text/css" href="../css/scrollup.css" />
+	<!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+	/>
+	<!-- FONT -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HEADER-->
+      <header>
+        <div class="container">
+          <!-- Logo -->
+          <div class="logo">
+			      <!-- <div class="baslik">AYDIN BEKOĞLU KİŞİSEL SİTE</div> -->
+			      <div class="resim"><img src="../img/logo.png" alt=""></div>
+          </div>
+
+          <!-- Menu -->
+          <nav>
+            <ul>
+                <li><a href="../index.html">Anasayfa</a></li>
+                <li><a href="../kimdir.html">Kimdir?</a>
+                <li><a href="">Projelerim</a>
+                  <ul>
+                    <li><a href="../projelerim/sitelerim.html">Web Sitelerim</a></li>
+                    <li><a href="https://github.com/MyscherzoTR?tab=repositories" target="_blank">Github</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="aktif">Galeri</a>
+                  <ul>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="fotoGaleri.html">Resim</a></li>
+                    <li><a href="seyahat.html">Seyahat</a></li>
+                  </ul>
+                </li>
+                <li><a href="../hakkinda.html" target="_blank">Hakkımda</a></li>
+                <li><a href="../iletisim.html" target="_blank">İletişim</a></li>
+            </ul>
+            <div class="clear"></div>
+          </nav>
+        </div>
+      </header>	  
+	  
+	  	<!-- SLİDER  -->
+	    <div class="slider">
+		    <div class="mySlides fade">
+			    <div class="numbertext">1 / 5</div>
+			    <img src="../img/slider1.jpg" style="width:100%; height:100%;">
+			    <p class="text">"İlham verici alıntılar ve motive edici sözler, başarıya ulaşmada kritik öneme sahiptir."</p>
+			    <p class="small-text">"Birkaç kelimeden oluşan cümlelerin etkisi bazıları tarafından göz ardı edilse de gerçek bu..."</p>
+		    </div>
+
+		    <div class="mySlides fade">
+			    <div class="numbertext">2 / 5</div>
+			    <img src="../img/slider2.jpg" style="width:100%; height:100%;">
+			    <p class="text">"Sonuçta insan, evrendeki tek bir şey üzerinde tam kontrole sahip ve o da düşünceleri!"</p>
+			    <p class="small-text">"İşte bu noktada devreye zihnin bir köşesine yazılması gereken motivasyon sözleri giriyor..."</p>
+		    </div>
+
+		    <div class="mySlides fade">
+		    	<div class="numbertext">3 / 5</div>
+			    <img src="../img/slider3.jpg" style="width:100%; height:100%;">
+			    <p class="text">"Başarısızlık, yeniden başlama fırsatından başka bir şey değildir."</p>
+			    <p class="small-text">"Bu sefer daha akıllıca..."</p>
+        </div>
+        
+        <div class="mySlides fade">
+		    	<div class="numbertext">4 / 5</div>
+			    <img src="../img/slider4.jpg" style="width:100%; height:100%;">
+			    <p class="text">"Yaşam ne kadar kötü gözükürse gözüksün, her zaman başarılı olacak bir yol vardır."</p>
+			    <p class="small-text">"HAYAT varsa, UMUT da vardır..."</p>
+        </div>
+        
+        <div class="mySlides fade">
+		    	<div class="numbertext">5 / 5</div>
+			    <img src="../img/slider5.jpg" style="width:100%; height:100%;">
+			    <p class="text">"Şayet bir gün çaresiz kalırsanız, bir kurtarıcı beklemeyin."</p>
+			    <p class="small-text">"Kurtarıcı kendiniz olun..."</p>
+		    </div>
+
+		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    </div>
+	    <br>
+
+	    <div style="text-align:center">
+		    <span class="dot" onclick="currentSlide(1)"></span> 
+		    <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span> 
+      </div>
+
+	   
+      <!-- CONTENT -->
+      <div class="content">
+        <h1 class="title">
+          <div class="container">Resim Galeri</div>
+        </h1>
+        <div class="container">
+          <div class="box">
+            <div class="img"><img src="../img/bulut1.jpg" alt="" /></div>
+            <div class="title">Bulut</div>
+            <div class="description">Uyuyor</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/bulut2.jpg" alt="" /></div>
+            <div class="title">Bulut</div>
+            <div class="description">Selfie Çekiyor</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/bulut3.jpg" alt="" /></div>
+            <div class="title">Bulut</div>
+            <div class="description">Bakıyor</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/bulut4.jpg" alt="" /></div>
+            <div class="title">Bulut</div>
+            <div class="description">Sıkılmış</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/aydin1.jpg" alt="" /></div>
+            <div class="title">Aydın</div>
+            <div class="description">Selfie</div>
+          </div>
+
+          <div class="box">
+            <div class="img"><img src="../img/aydin2.jpeg" alt="" /></div>
+            <div class="title">Aydın</div>
+            <div class="description">Selfie</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/aydin3.jpeg" alt="" /></div>
+            <div class="title">Aydın</div>
+            <div class="description">Selfie</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/aydin4.jpg" alt="" /></div>
+            <div class="title">Aydın</div>
+            <div class="description">Selfie</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/bulut1.jpg" alt="" /></div>
+            <div class="title">Bulut</div>
+            <div class="description">uyuyor</div>
+          </div>
+          <div class="box">
+            <div class="img"><img src="../img/aydin5.jpg" alt="" /></div>
+            <div class="title">Aydın</div>
+            <div class="description">Selfie</div>
+          </div>
+        </div>
+        <div class="scrollup"><a href=""></a></div>  
+      </div>
+     <!-- FOOTER -->
+     <footer>
+			<div class="ust"> 
+				<div class="footerSol">
+          <ul>
+            <li>
+              <span>İstanbul Esenyurt Üniversitesi 2 yıllık Bilgisayar Programcısı Mezunu</span></br>
+					<span>Şuan Kocaeli Üniversitesinde Bilişim Sistemleri Mühendisliği Okuyor.</span></br>
+          <span>Yönetimini ve Yazarlığını Yaptığım Web Sitem: <a href="https://technovadi.com" target="_blank" >TechnoVadi</a></span>
+          <div id="icon">
+            <a href="https://facebook.com/" target="_blank"><img src="../img/icon/facebook.png" alt="Facebook"/></a>
+           <a href="https://twitter.com/" target="_blank"> <img src="../img/icon/twitter.png" alt="Twitter"/></a>
+           <a href="https://twitter.com/" target="_blank"> <img src="../img/icon/instagram.png" alt="Instagram"/></a>
+           <a href="https://twitter.com/" target="_blank"> <img src="../img/icon/linkedin.png" alt="linkedin"/></a>
+           <a href="https://youtube.com/" target="_blank"> <img src="../img/icon/youtube-variation.png" alt="Youtube" /></a>
+           <a href="https://github.com/MyscherzoTR" target="_blank"> <img src="../img/icon/github.png" alt="Github"  /></a>
+           </div>
+            </li>
+          </ul>
+					
+        </div> 
+
+		  	  	<div class="footerSag">
+              <ul>
+                <li><h5>BİZE ULAŞIN!</h5></li>
+                <li>	<span>Telefon: 0532 3455 5534</span><a href="https://wa.me/905323455534" target="_blank"> <img src="../img/icon/whatsapp.png" alt="Whatsapp" width="20px" height="20px" /></a></li>
+                <li><span>Mail: aydinbek97@gmail.com</span></li>
+                <li><span>Adres: Mevlana Mh. Dursun Bey Cd. No:12 Ataşehir/İSTANBUL</span></li>
+              </ul>
+		 	 	    </div>
+			</div>
+			<div class="alt">© 2020 Tüm hakları saklıdır.</div>		  
+      </footer>
+    </div>
+  <script src="../js/slider.js"></script>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/scrollup.js"></script>
+  </body>
+</html>
